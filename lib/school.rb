@@ -1,9 +1,9 @@
 # code here!
 class School
 
-  attr_reader :roster #
+  attr_reader :roster #reader returns the value of an instance variable
 
-  def initialize (roster) #
+  def initialize (roster) #call the method initialize on the new object
     @roster = {}
   end
 
